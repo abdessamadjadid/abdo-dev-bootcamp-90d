@@ -1,9 +1,15 @@
-bin/
-obj/
-.vscode/
-.idea/
+# Visual Studio folders
+.vs/
 *.user
 *.suo
-*.DS_Store
+
+# Build artifacts
+bin/
+obj/
 TestResults/
-coverage/
+*.log
+*.vsidx
+
+# System files
+.DS_Store
+Thumbs.db
