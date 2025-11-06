@@ -4,6 +4,8 @@
     {
         [Theory]
         [InlineData("ronaldo","odlanor")]
+        [InlineData("123","321")]
+       
         public void StringReverse_Test(string input, string expected)
         {
 
